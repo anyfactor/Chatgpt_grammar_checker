@@ -2,12 +2,16 @@
 
 **Upgraded version 2.0**
 
+> Update (Dec 6, 2024)
+> I have been using this project for work and regular communication for the past year.
+> The total ChatGPT bill was USD $5 over the year.
+> The prompt used in the script is solid and never resulted in unparseable AI-generated text. Corrected text and grammar pointers are always provided structurally.
 
 ## AutoHotKey + Go powered grammar checker that revises sections of text, teaches you about the mistakes and fixes those mistakes. Powered with ChatGPT.
 
 ![Grammar_checker](./grammar_checker.gif)
 
-This projects was poorly documentated in [my blog posts](https://anyfactor.github.io/):
+This project was documentated in [my blog posts](https://anyfactor.github.io/):
 
 - https://anyfactor.github.io/posts/chatgpt_grammar_checker/
 - https://anyfactor.github.io/posts/upgrading_my_grammar_automation_script/
@@ -52,3 +56,10 @@ The Go script requires a ChatGPT token.
 This project was previously created with using Powershell and AHK. But due Powershell's limitation, I decided to upgrade it.
 
 Feel free to have a chat with me. My contact is in my blog: https://anyfactor.github.io
+
+## Future
+
+- 10 stars: Input text and corrected text logging in a local SQLite database.
+- 20 stars: Release Go binary and make it portable and easier to install
+- 30 stars: Look into setting a up native key combination shortcut configuration
+- 40 stars: Set up proper UI
